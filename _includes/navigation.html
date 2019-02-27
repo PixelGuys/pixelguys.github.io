@@ -1,0 +1,7 @@
+<div class="w3-top">
+	<div class="w3-bar w3-light-grey">
+		{% for item in site.data.navigation %}
+		<a href="{{ item.link }}" class="w3-bar-item w3-button {% if page.url == item.link %}w3-green{% endif %}">{{ item.name }}</a>
+		{% endfor %}
+	</div>
+</div>

@@ -1,0 +1,17 @@
+.copyleft {
+	display: inline-block;
+	transform: rotate(180deg);
+}
+.copyleft::after {
+	content: "\00a9";
+}
+
+#footer {
+	background-color: lightGray;
+	width: 100%;
+}
+
+body {
+	position: relative;
+	top: 32px;
+}
